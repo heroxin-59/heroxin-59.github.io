@@ -61,11 +61,11 @@
             
             <tag> SpringBoot </tag>
             
+            <tag> Java </tag>
+            
             <tag> Http </tag>
             
             <tag> Feign </tag>
-            
-            <tag> Java </tag>
             
         </tags>
       
@@ -150,9 +150,9 @@
             
             <tag> SpringBoot </tag>
             
-            <tag> Java </tag>
-            
             <tag> Eureka </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
