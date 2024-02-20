@@ -1,0 +1,23 @@
+- class_name: 友情链接
+  class_desc: 添加友链，请看最后一条评论
+  link_list:
+    - name: SmallG
+      link: https://xn--d6qq86l2eg.cn/
+      avatar: https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/SmallG-photo.jpg
+      descr: 这个家伙没有描述
+    - name: SEwtl
+      link: https://wtl0419.github.io/
+      avatar: https://hexo-1314225961.cos.ap-nanjing.myqcloud.com/hexo_dido.jpg
+      descr: 嵌入式软件工程师
+    - name: 牛牛技术客栈
+      link: https://www.nnjskz.cn/
+      avatar: https://www.nnjskz.cn/img/logo3.png
+      descr: 学习改变命运，分享创造价值
+    - name: llllzの博客
+      link: http://yunyd.gitee.io
+      avatar: https://yunyd.gitee.io/yunyd/medias/avatar.jpg
+      descr: The harder you work, the luckier you will be
+    - name: 米尔嘉
+      link: https://minterjia.com/
+      avatar: https://minterjia.com/logo
+      descr: 一个专注分享前端技术和趋势的博客
