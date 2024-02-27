@@ -149,6 +149,7 @@ navbar:
       url: archives/
     - name: 友链
       icon: fa-solid fa-link
+      url: friends/
     - name: 开往
       icon: fa-solid fa-train
       url: https://www.travellings.cn/go.html

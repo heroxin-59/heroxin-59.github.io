@@ -1,0 +1,23 @@
+- group: 友情链接
+  description: 
+  items:
+    - title: SmallG
+      url: https://xn--d6qq86l2eg.cn/
+      avatar: https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/SmallG-photo.jpg
+      description: 这个家伙没有描述
+    - title: SEwtl
+      url: https://wtl0419.github.io/
+      avatar: https://hexo-1314225961.cos.ap-nanjing.myqcloud.com/hexo_dido.jpg
+      description: 嵌入式软件工程师
+    - title: 牛牛技术客栈
+      url: https://www.nnjskz.cn/
+      avatar: https://www.nnjskz.cn/img/logo3.png
+      description: 学习改变命运，分享创造价值
+    - title: llllzの博客
+      url: http://yunyd.gitee.io
+      avatar: https://yunyd.gitee.io/yunyd/medias/avatar.jpg
+      description: The harder you work, the luckier you will be
+    - title: 米尔嘉
+      url: https://minterjia.com/
+      avatar: https://minterjia.com/logo
+      description: 一个专注分享前端技术和趋势的博客
