@@ -138,12 +138,12 @@ navbar:
     - name: 博客
       icon: fa-solid fa-rss
       url: /
-    - name: 分类
-      icon: fa-solid fa-folder-open
-      url: categories/
-    - name: 标签
-      icon: fa-solid fa-tags
-      url: tags/
+    # - name: 分类
+    #   icon: fa-solid fa-folder-open
+    #   url: categories/
+    # - name: 标签
+    #   icon: fa-solid fa-tags
+    #   url: tags/
     - name: 归档
       icon: fa-solid fa-archive
       url: archives/
@@ -154,14 +154,14 @@ navbar:
       icon: fa-solid fa-train
       url: https://www.travellings.cn/go.html
     - name: 小零食
-      icon: fa-solid fa-candy
+      icon: fa-solid fa-candy-cane
       rows:
         - name: mikutap
-          icon: fa-solid fa-folder-open
-          url: game/
+          icon: fa-solid fa-paw
+          url: game/mikutap/index.html
         - name: flappy-nyan-cat
-          icon: fa-solid fa-folder-open
-          url: game/
+          icon: fa-solid fa-cat
+          url: game/flappy-nyan-cat/index.html
   search: Search...   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
 
