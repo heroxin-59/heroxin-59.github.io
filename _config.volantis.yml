@@ -417,14 +417,14 @@ comments:
   # https://github.com/laymonage/giscus
   giscus:
     # 以下配置按照 yml 格式增删填写即可
-    # repo: xxx/xxx
-    # repo-id: xxx
-    # category: xxx
-    # category-id: xxx
-    # mapping: "pathname"
-    # reactions-enabled: "1"
-    # emit-metadata: "0"
-    # lang: "zh-CN"
+    repo: heroxin-59/heroxin-59.github.io
+    repo-id: R_kgDOIbH_cg
+    category: Announcements
+    category-id: DIC_kwDOIbH_cs4Cdk-P
+    mapping: "pathname"
+    reactions-enabled: "1"
+    emit-metadata: "0"
+    lang: "zh-CN"
     # 以上配置按照 yml 格式增删填写即可
     theme:
       light: "light" # https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
