@@ -947,9 +947,14 @@ plugins:
   artitalk:
     # Set `plugins: ["artitalk"]` to enable in front-matter
     # 配置项按照yml格式继续填写即可
-    appId: wEkRlWKOuMX9sfAcwVZCtjDQ-gzGzoHsz # your appID
-    appKey: Xb0SgvHtttA1TQH6CyFqWKM9 # your appKEY
-    serverURL:  artitalk.heroxin.xyz #leancloud绑定的api访问域名，使用国际版的话不需要填写
+
+    # 国内版
+    # appId: wEkRlWKOuMX9sfAcwVZCtjDQ-gzGzoHsz # your appID
+    # appKey: Xb0SgvHtttA1TQH6CyFqWKM9 # your appKEY
+    # serverURL:  artitalk.heroxin.xyz #leancloud绑定的api访问域名，使用国际版的话不需要填写
+    # 国际版
+    appId: XGVM01IMTyJXh5aiEwJCkheF-MdYXbMMI # your appID
+    appKey: tk3xsLxOHynlT31zVt6yaFE1 # your appKEY
     # lang: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语
     # pageSize: #每页说说的显示数量
     # shuoPla: #在编辑说说的输入框中的占位符
