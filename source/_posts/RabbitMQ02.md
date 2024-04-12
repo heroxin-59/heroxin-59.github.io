@@ -23,16 +23,7 @@ comments:
 cover:
 sticky: 9
 ---
-
-
-
-
-
-
-
-
-
-# Work queues
+## Work queues
 
 - 不需要设置交换机，只需指定唯一的消息队列即可进行消息传递
 - 可以有多个消费者，多个消费者通过轮询从队列中取消息
@@ -44,7 +35,9 @@ sticky: 9
 
 ![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230228170348663.png)
 
-## consumer
+**监听队列，自动绑定消息。通过设置休眠来模拟不同的消费能力**
+{% tabs Workqueues %}
+<!-- tab consumer -->
 
 ```java
 @Component
@@ -65,11 +58,9 @@ public class SpringRabbitListener {
 }
 ```
 
+<!-- endtab -->
+<!-- tab publisher -->
 
-
-**监听队列，自动绑定消息。通过设置休眠来模拟不同的消费能力**
-
-## publisher
 
 ```java
 //    workqueue
@@ -83,10 +74,11 @@ public void testSendMessage02() throws InterruptedException {
     }
 }
 ```
+<!-- endtab -->
 
+{% endtabs %}
 
-
-# Publish/Subscribe
+## Publish/Subscribe
 
 - 需要设置交换机，并将队列绑定到交换机
 - 常见的交换机类型有 fanout、direct、topic
@@ -109,8 +101,9 @@ public void testSendMessage02() throws InterruptedException {
 
 
 
-## Config
+### Config
 
+{% tabs tab-id %}
 <!-- tab Fanout-->
 
 ```java
@@ -306,7 +299,7 @@ public class RabbitMQConfig {
 <!-- endtab -->
 
 
-
+{% endtabs %}
 
 
 ## 服务提供者
