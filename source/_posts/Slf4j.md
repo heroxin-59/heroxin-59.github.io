@@ -62,7 +62,7 @@ plugins:
     
 ---
 
-<h2>使用方法</h2>
+## 使用方法
 通常在打印日志的使用 {% span red::LoggerFactory.getLogger %} 和 {% span red::@Slf4j %} 和两种方法
 
 LoggerFactory：是slf4j框架下的一个工厂类，可以通过指定类命来创建 Logger 实例记录日志；
@@ -104,7 +104,7 @@ public class Test {
 <!-- endtab -->
 {% endtabs %}
 
-<h2>Slf4j有五个日志级别：</h2>
+## Slf4j有五个日志级别
 
 ```java
 log.info("This is a log message");
@@ -114,7 +114,7 @@ log.warn("This is a log message");
 log.trace("This is a log message");
 ```
 
-<h2>日志内容可以使用字符串拼接和占位符等方式：</h2>
+## 日志内容可以使用字符串拼接和占位符等方式
 
 > String字符串拼接低层是使用StringBuilder的append方法，有一定的性能耗损
 >

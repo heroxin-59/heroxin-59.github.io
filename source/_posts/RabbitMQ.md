@@ -9,8 +9,7 @@ updated: 2023-02-28 10:30:00
 tags: [SpringBoot,SpringCloud,RabbitMQ] 
 #文章分类
 categories: 
-	- [分布式]
-	- [异步通信]
+	- [分布式,异步通信]
 #文章关键字
 keywords: 
 #文章描述

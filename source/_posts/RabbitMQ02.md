@@ -9,8 +9,7 @@ updated: 2023-11-01 10:30:00
 tags: [SpringBoot,SpringCloud,RabbitMQ] 
 #文章分类
 categories: 
-	- [分布式]
-	- [异步通信]
+	- [分布式,异步通信]
 #文章关键字
 keywords: 
 #文章描述
@@ -20,7 +19,7 @@ top_img:
 #评论模块，默认true
 comments: 
 #缩略图，如果没有top_img，文章顶部将显示缩略图
-cover:
+headimg: https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230228170639037.png
 sticky: 9
 ---
 ## Work queues
@@ -101,9 +100,9 @@ public void testSendMessage02() throws InterruptedException {
 
 
 
-### Config
+## Config
 
-{% tabs tab-id %}
+{% tabs config %}
 <!-- tab Fanout-->
 
 ```java
@@ -298,13 +297,12 @@ public class RabbitMQConfig {
 
 <!-- endtab -->
 
-
 {% endtabs %}
 
 
 ## 服务提供者
 
-
+{% tabs 服务提供者 %}
 <!-- tab Fanout-->
 
 ```java
@@ -427,12 +425,13 @@ public class MQSender {
 
 <!-- endtab -->
 
-
+{% endtabs %}
 
 ## 服务消费者
 
+{% tabs 服务消费者 %}
 
-<!-- tab Fanout,Direct,Topic-->
+<!-- tab Fanout , Direct , Topic-->
 
 ```java
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
@@ -492,7 +491,7 @@ public class MQReceiver {
 
 <!-- endtab -->
 
-
+{% endtabs %}
 
 ## 测试
 
