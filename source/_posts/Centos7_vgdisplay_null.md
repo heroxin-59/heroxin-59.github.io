@@ -35,7 +35,7 @@ cover:
 
 # 扩容磁盘空间
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230606150810153.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230606150810153.png)
 
 
 
@@ -47,9 +47,9 @@ cover:
 lsblk
 ```
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230606145544073.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230606145544073.png)
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230606151817362.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230606151817362.png)
 
 
 
@@ -61,7 +61,7 @@ lsblk
 yum install cloud-utils-growpart gdisk -y
 ```
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230606145606881.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230606145606881.png)
 
 
 
@@ -73,13 +73,13 @@ yum install cloud-utils-growpart gdisk -y
 growpart /dev/sda 3
 ```
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230606145759615.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230606145759615.png)
 
 
 
 > **此时，分区大小已经变为调整后的大小**
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230606145857428.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230606145857428.png)
 
 # 文件系统扩容
 
@@ -87,7 +87,7 @@ growpart /dev/sda 3
 xfs_growfs /
 ```
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230606150005116.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230606150005116.png)
 
 > **扩容成功**
 
@@ -95,7 +95,7 @@ xfs_growfs /
 df -h
 ```
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230606150043589.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230606150043589.png)
 
 
 

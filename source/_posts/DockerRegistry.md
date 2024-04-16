@@ -53,7 +53,7 @@ openssl req -x509 -days 3560 -subj '/CN=192.168.196.101:5000/' -nodes -newkey rs
 
 
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230530194542601.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230530194542601.png)
 
 ## 生成用户名和密码
 
@@ -126,7 +126,7 @@ docker tag tomcat:latest 192.168.196.101:5000/mytomca
 docker login 192.168.196.101:5000
 ```
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230531090428080.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230531090428080.png)
 
 ## 推送
 
@@ -134,7 +134,7 @@ docker login 192.168.196.101:5000
 docker push 192.168.196.101:5000/mytomcat
 ```
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230531090636807.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230531090636807.png)
 
 ## 查看 DockerRegistry 仓库推送的文件
 
@@ -142,4 +142,4 @@ docker push 192.168.196.101:5000/mytomcat
 ll /usr/local/docker/registry/docker/registry/v2/repositories/
 ```
 
-![image-20230531091157912](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20230531091157912.png)
+![image-20230531091157912](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230531091157912.png)

@@ -49,7 +49,7 @@ pin:
 # 指定优先级 1-10
 sticky: 
 # 文章头图 url
-headimg: https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/Snipaste_2024-04-15_14-58-06.png
+headimg: https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/Snipaste_2024-04-16_11-38-56.png
 # 阅读更多按钮
 readmore:
 ---

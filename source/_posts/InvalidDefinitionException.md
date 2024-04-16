@@ -30,7 +30,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException
 
 
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20231026162750342.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20231026162750342.png)
 
 # 解决
 
@@ -40,7 +40,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException
 
 
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20231026163124933.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20231026163124933.png)
 
 # 原因
 
@@ -50,7 +50,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException
 
 而`RespBean`并没有实现`Serializable`接口
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20231026164052331.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20231026164052331.png)
 
 ## 参考
 

@@ -88,7 +88,7 @@ public class LoginVo {
 
 新建一个 `Annotation`类型的类
 
-![](https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/image-20231025191705505.png)
+![](https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20231025191705505.png)
 
 ## 第二步
 

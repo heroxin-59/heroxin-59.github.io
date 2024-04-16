@@ -20,7 +20,7 @@ top_img:
 comments: 
 #缩略图，如果没有top_img，文章顶部将显示缩略图
 headimg: https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/image-20230228170639037.png
-sticky: 9
+sticky: 
 ---
 ## Work queues
 
