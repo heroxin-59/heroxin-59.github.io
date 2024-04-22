@@ -6,10 +6,10 @@ date: 2023-03-21 10:30:00
 #文章更新日期
 updated: 2023-11-01 10:30:00
 #文章标签
-tags: [SpringBoot,SpringCloud,RabbitMQ] 
+tags: [RabbitMQ] 
 #文章分类
 categories: 
-	- [分布式,异步通信]
+	- [技术栈,消息队列]
 #文章关键字
 keywords: 
 #文章描述
